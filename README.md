@@ -1,30 +1,18 @@
-# react-boilerplate
+### Flat Finder App
 
-Simple react starter with the following config:
+The goal of this challenge was to create a React app that could display the location of a selected flat on a Google-React-Map.
 
-- React, ReactDOM
-- Webpack 4
-- Babel with es2015 and react presets
-- Bootstrap (css only, loaded from a cdn in `index.html`)
-- work with `.js` or `.jsx` files
-- main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+Here's how it looks:
+![gif](./react-flats.gif)
 
-## Scripts
+#### 1. Setup
 
-To start the local Webpack Dev Server (usually on port `8080`):
+The challenge used the Le Wagon [React boilerplate](https://github.com/lewagon/react-boilerplate):
 
-```bash
-yarn start
-```
+#### 2. Features
 
-To lint all JavaScript files in the `src` folder:
+1. When a user selects a flat, a marker will be placed on the map at the location of the flat.
 
-```bash
-yarn lint
-```
+#### 3. Potential Features
 
-To build and deploy your app to `gh-pages` branch on the GitHub repo:
-
-```bash
-yarn deploy
-```
+1. Display a marker for each flat on the map, and allow users to select a flat based on its marker, or vice versa.
