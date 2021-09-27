@@ -1,10 +1,38 @@
-body {
+@import './components/flat';
+
+* {
+  margin: 0;
+  padding: 0;
   font-family: Helvetica;
 }
 
 #root {
+  width: 100vw;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.flat-list {
+  flex: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.map-container {
+  flex: 40%;
+  position: sticky !important;
+  top: 0 !important;
+  height: 100vh;
+}
+
+.marker {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: red;
 }
