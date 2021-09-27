@@ -11,8 +11,8 @@ The challenge used the Le Wagon [React boilerplate](https://github.com/lewagon/r
 
 #### 2. Features
 
-1. When a user selects a flat, a marker will be placed on the map at the location of the flat.
+* When a user selects a flat, a marker will be placed on the map at the location of the flat.
 
 #### 3. Potential Features
 
-1. Display a marker for each flat on the map, and allow users to select a flat based on its marker, or vice versa.
+* Display a marker for each flat on the map, and allow users to select a flat based on its marker, or vice versa.
